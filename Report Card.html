@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Report Card</title>
+<style>\
+
+.table-list{
+border-collapse:collapse;
+margin:25px o;
+font-size:0.9em;
+minimum-width:400px;
+border-radius:5px 5px 0 0;
+overflow:hidden;
+padding:50px;
+box-shadow:0 0 20px rgba(0,0,0,0,15);
+}
+.table-list thead tr{
+background-color:seagreen;
+color:white;
+text-align:left;
+font-weight:bold;
+}
+.main-head{
+background-color:cadetblue;
+color:white;
+text-align:left;
+font-weight:bold;
+font-family:fantasy;
+}
+.table-list th,
+.table-list td{
+padding:12px 15px;
+}
+.table-list tr:nth-of-type(even){
+background-color:lightgray;
+}
+.table-list tr.active-row{
+font-weight=bold;
+color:seagreen;
+}
+.table-list tr:last-of-type{
+border-bottom:4px solid seagreen;
+}
+tr{cursor:pointer;
+}
+tr:hover{
+background-color:lightgray;
+}
+</style>
+</head>
+<body>
+<h2 class="main-head">Report Card of Akshay:</h2>
+<table class = "table-list">
+<thead>
+<tr>
+    <th>Sr.no</th>
+    <th>Semester</th>
+    <th>Subject</th>
+    <th>Marks</th>
+</tr>
+</thead>
+<tr>
+ <td>01</td>
+ <td>I</td>
+ <td>Computer Science</td>
+ <td>80</td>
+</tr>
+<tr class="active-row">
+ <td>02</td>
+ <td>I</td>
+ <td>Operating System</td>
+ <td>75</td>
+</tr>
+<tr>
+ <td>03</td>
+ <td>I</td>
+ <td>Data Structure</td>
+ <td>96</td>
+</tr>
+<tr class="active-row">
+ <td>04</td>
+ <td>I</td>
+ <td>Computer Organization</td>
+ <td>56</td>
+</tr>
+<tr>
+ <td>05</td>
+ <td>I</td>
+ <td>Web Devlopment</td>
+ <td>91</td>
+</tr>
+</body>
